@@ -32,26 +32,26 @@
           <!-- 新たにタグは追加しなくてもできます。 -->
           <div class="q8 q8--btn">
             <p class="q8__title">ー small ー</p>
-            <div>common</div>
-            <div>error</div>
-            <div>disabled</div>
-            <div>shadow</div>
+            <div class="s__btm1">common</div>
+            <div class="s__btm2">error</div>
+            <div class="s__btm3">disabled</div>
+            <div class="s__btm4">shadow</div>
           </div>
 
           <div class="q8 q8--btn">
             <p class="q8__title">ー middle ー</p>
-            <div>common</div>
-            <div>error</div>
-            <div>disabled</div>
-            <div>shadow</div>
+            <div class="m__btm1">common</div>
+            <div class="m__btm2">error</div>
+            <div class="m__btm3">disabled</div>
+            <div class="m__btm4">shadow</div>
           </div>
 
           <div class="q8 q8--btn">
             <p class="q8__title">ー large ー</p>
-            <div>common</div>
-            <div>error</div>
-            <div>disabled</div>
-            <div>shadow</div>
+            <div class="l__btm1">common</div>
+            <div class="l__btm2">error</div>
+            <div class="l__btm3">disabled</div>
+            <div class="l__btm4">shadow</div>
           </div>
           <!-- 回答はここに書いてね -->
         </div>
@@ -99,7 +99,72 @@
           <!-- 回答はここに書いてね -->
           <!-- すでについてるクラスにはstyleを指定しない。styleを付ける場合は自分で新たにクラスをつけること -->
           <div class="q8">
-            
+           <div class="">
+             <form action="" method="GET" class="form__box">
+               <div class="form__title">
+                 <p>From Exercise</p>
+               </div>
+               <div class="clearfix">
+                 <div class="input__item">
+                   <ul>
+                     <li class="clearfix">
+                       <p class="item__name">名前<span class="symbol">*</span></p>
+                       <div class="name__text__box">
+                         <input class="name__text" type="text" name="name">
+                       </div>
+                     </li>
+                     <li class="clearfix">
+                        <p class="item__name">性別</p>
+                        <div class="name__text__box">
+                          <input class="checkbox__style" type="radio" id="sex" name="man" value="man">
+                          <label for="man">男性</label>
+                          <input class="checkbox__style" type="radio" id="sex" name="woman" value="woman">
+                          <label for="woman">女性</label>
+                        </div>
+                      </li>
+                      <li class="clearfix">
+                        <p class="item__name">出身</p>
+                        <div class="name__text__box">
+                          <select name="live" class="name__text">
+                            <option value="tokyo">東京</option>
+                            <option value="saitama">埼玉</option>
+                            <option value="chiba">千葉</option>
+                            <option value="kanagawa">神奈川</option>
+                          </select>
+                        </div>
+                      </li>
+                      <li class="clearfix">
+                        <p class="item__name">Eメール<span class="symbol">*</span></p>
+                        <div class="name__text__box">
+                          <input class="name__text" type="text" name="mail" placeholder="ex)hoge@gmail.com"> 
+                        </div>
+                      </li>
+                      <li class="clearfix">
+                        <p class="item__name">電話番号</p>
+                        <div class="name__text__box">
+                          <input class="name__text" type="text" name="tell" placeholder="ex)08012345678">
+                        </div>
+                      </li>
+                      <li class="clearfix">
+                        <div class="check__age">
+                          <input id="age" class="checkbox__style" type="checkbox" name="age">
+                          <label for="age">20歳以上です</label>
+                        </div>
+                      </li>
+                      <li class="clearfix">
+                        <div class="check__age">
+                          <input class="sub__btm" type="submit" value="送信">
+                        </div>
+                      </li>
+                   </ul>
+                 </div>
+                 <div class="textarea__box">
+                   <textarea class="text__area" placeholder="何かあれば入力してください"></textarea>
+                 </div>
+                 </div>
+               </div>
+             </form>
+           </div>
           </div>
           <!-- 回答はここに書いてね -->
         </div>

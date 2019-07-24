@@ -1,5 +1,244 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.s__btm1 {
+  display: inline-block;
+  font-size: 16px;
+  color: #fff;
+  padding: 0 15px;
+  line-height: 26px;
+  background-color: #00bcd4;
+  border-radius: 3px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.s__btm2 {
+  display: inline-block;
+  font-size: 16px;
+  color: #fff;
+  padding: 0 15px;
+  margin-left: 10px;
+  line-height: 26px;
+  background-color: #ff4081;
+  border-radius: 3px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.s__btm3 {
+  display: inline-block;
+  font-size: 16px;
+  color: #fff;
+  padding: 0 15px;
+  margin-left: 15px;
+  line-height: 26px;
+  background-color: #e5e5e5;
+  border-radius: 3px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.s__btm4 {
+  display: inline-block;
+  font-size: 16px;
+  padding: 0 15px;
+  margin-left: 10px;
+  line-height: 26px;
+  border-radius: 3px;
+  text-align: center;
+  box-shadow: 0 1px 6px rgba(0.0.0..12),0 1px 4px rgba(0.0.0..12);
+  cursor: pointer;
+}
+
+
+.m__btm1 {
+  display: inline-block;
+  padding: 0 20px;
+  margin-left: 10px;
+  line-height: 32px;
+  background-color: #00bcd4;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.m__btm2 {
+  display: inline-block;
+  padding: 0 20px;
+  margin-left: 10px;
+  line-height: 32px;
+  background-color: #ff4081;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.m__btm3 {
+  display: inline-block;
+  padding: 0 20px;
+  margin-left: 10px;
+  line-height: 32px;
+  background-color: #e5e5e5;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.m__btm4 {
+  display: inline-block;
+  padding: 0 20px;
+  margin-left: 10px;
+  line-height: 32px;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+
+.l__btm1 {
+  display: inline-block;
+  padding: 0 25px;
+  margin-left: 10px;
+  line-height: 38px;
+  background-color: #00bcd4;
+  color: #fff;
+  border-radius: 7px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.l__btm2 {
+  display: inline-block;
+  padding: 0 25px;
+  margin-left: 10px;
+  line-height: 38px;
+  background-color: #ff4081;
+  color: #fff;
+  border-radius: 7px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.l__btm3 {
+  display: inline-block;
+  padding: 0 25px;
+  margin-left: 10px;
+  line-height: 38px;
+  background-color: #e5e5e5;
+  color: #fff;
+  border-radius: 7px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.l__btm4 {
+  display: inline-block;
+  padding: 0 25px;
+  margin-left: 10px;
+  line-height: 38px;
+  border-radius: 7px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+
+.form__box {
+  padding: 20px;
+  width: 700px;
+  margin: 0 auto;
+  background-color: #ecf1f2;
+}
+
+.form__title {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.input__item {
+  float: left;
+  width: 300px;
+}
+
+li {
+  margin-top: 20px;
+}
+
+li:first-child{
+  margin-top: 0;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.item__name {
+  float: left;
+  width: 100px;
+  line-height: 21px;
+  text-align: right;
+}
+
+.symbol {
+  margin: 0;
+  padding: 0;
+  color: #f00;
+}
+
+.name__text {
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #fff;
+  font-size: 12px;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  border: none;
+}
+
+.check__age {
+  float: right;
+}
+
+.checkbox__style {
+  
+}
+
+.sub__btm {
+  padding: 0 10px;
+  border-radius: 5px;
+  background-color: #00bcd4;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 26px;
+  border: none;
+}
+
+.name__text__box {
+  width: 180px;
+  float: right;
+
+}
+
+.textarea__box {
+  width: 380px;
+  float: right;
+}
+
+.text__area {
+  width: 100%;
+  height: 203px;
+  padding: 10px;
+  border-radius: 3px;
+  font-size: 12px;
+  box-sizing: border-box;
+  border: none;
+  resize: none;
+}
+
 
 /* 回答はここに書いてね */
