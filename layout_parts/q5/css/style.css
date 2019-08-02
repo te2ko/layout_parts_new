@@ -52,7 +52,7 @@
 
 .box5 {
   position: absolute;
-  top: 360;
+  bottom: 40px;
   left: 200px;
   z-index: 5;
   background-color: #9fd6d2;
@@ -76,8 +76,8 @@
 
 .box8 {
   position: absolute;
-  top: 120;
-  left: 120;
+  top: 120px;
+  left: 120px;
   z-index: 8;
   background-color: #de70cf;
 }

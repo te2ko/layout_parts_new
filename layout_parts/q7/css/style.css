@@ -83,15 +83,26 @@
   box-sizing: border-box;
 }
 
-.q7_5box1 {
-  width: 300px;
+.q7__inline {
+  font-size: 0;
+}
+
+ .q7_5box1 {
   display: inline-block;
+  width: 300px;
+  font-size: 16px;
+  box-sizing: border-box;
 }
 
 .q7_5box2 {
-  width: 100%;
   display: inline-block;
+  width: 100%;
+  margin-left: -300px;
+  padding-left: 350px;
+  box-sizing: border-box;
+  font-size: 16px;
 }
+
 
 
 /* 回答はここに書いてね */

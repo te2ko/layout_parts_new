@@ -1,6 +1,8 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+
+
 .s__btm1 {
   display: inline-block;
   font-size: 16px;
@@ -49,6 +51,8 @@
   text-align: center;
   box-shadow: 0 1px 6px rgba(0.0.0..12),0 1px 4px rgba(0.0.0..12);
   cursor: pointer;
+  box-shadow: 0 1px 6px rgba(0,0,0,.12),
+  0 1px 4px rgba(0,0,0,.12);
 }
 
 
@@ -96,6 +100,8 @@
   border-radius: 5px;
   font-size: 20px;
   cursor: pointer;
+  box-shadow: 0 1px 6px rgba(0,0,0,.12),
+  0 1px 4px rgba(0,0,0,.12);
 }
 
 
@@ -143,6 +149,8 @@
   border-radius: 7px;
   font-size: 24px;
   cursor: pointer;
+  box-shadow: 0 1px 6px rgba(0,0,0,.12),
+              0 1px 4px rgba(0,0,0,.12);
 }
 
 
@@ -154,9 +162,29 @@
 }
 
 .form__title {
+  position: relative;
   font-weight: bold;
   margin-bottom: 20px;
 }
+
+.form__title::before {
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  width: 100%;
+  height: 1px;
+  background-color: #ccc;
+  content: "";
+}
+
+.title__text {
+  display: inline-block;
+  position: relative;
+  padding-right: 10px;
+  background-color: #ecf1f2;
+  font-size: 24px;
+}
+
 .input__item {
   float: left;
   width: 300px;
@@ -199,13 +227,85 @@ li:first-child{
   border: none;
 }
 
-.check__age {
+.right__box {
   float: right;
 }
 
-.checkbox__style {
-  
+input[type=checkbox],input[type=radio] {
+  display: none;
 }
+
+.check__box,.gender {
+  position: relative;
+  padding: 0 0 0 42px;
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+.gender::after {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  margin-top: -10px;
+  display: block;
+  width: 16px;
+  height: 16px;
+  background-color: #fff;
+  border: solid 1px #ccc;
+  content: "";
+  border-radius: 50%;
+  z-index: 1;
+}
+
+
+input[type=radio]:checked + .gender::before {
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  margin-top: -5px;
+  width: 8px;
+  height: 8px;
+  background-color: #00bcd4;
+  border-radius: 50%;
+  content: "";
+  z-index: 2;
+}
+
+.check__box::after {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  margin-top: -10px;
+  display: block;
+  width: 16px;
+  height: 16px;
+  content: "";
+  background-color: #fff;
+  border: solid 1px #ccc;
+  border-radius: 5px;
+  z-index: 1;
+}
+
+.check__box::before {
+  position: absolute;
+  top: 50%;
+  left: 21px;
+  margin-top: -14px;
+  width: 8px;
+  height: 16px;
+  border-right: 3px solid #00bcd4;
+  border-bottom: 3px solid #00bcd4;
+  transform: rotate(45deg);
+  content: "";
+  z-index: 2;
+  opacity: 0;
+}
+
+input[type=checkbox]:checked + .check__box::before {
+  opacity: 1;
+}
+
+
 
 .sub__btm {
   padding: 0 10px;
@@ -221,7 +321,6 @@ li:first-child{
 .name__text__box {
   width: 180px;
   float: right;
-
 }
 
 .textarea__box {

@@ -102,7 +102,7 @@
            <div class="">
              <form action="" method="GET" class="form__box">
                <div class="form__title">
-                 <p>From Exercise</p>
+                 <p class="title__text">From Exercise</p>
                </div>
                <div class="clearfix">
                  <div class="input__item">
@@ -114,12 +114,16 @@
                        </div>
                      </li>
                      <li class="clearfix">
-                        <p class="item__name">性別</p>
+                      <p class="item__name">性別</p>
                         <div class="name__text__box">
-                          <input class="checkbox__style" type="radio" id="sex" name="man" value="man">
-                          <label for="man">男性</label>
-                          <input class="checkbox__style" type="radio" id="sex" name="woman" value="woman">
-                          <label for="woman">女性</label>
+                          <label for="man" >
+                            <input class="checkbox__style" type="radio" id="man" name="sex" value="man">
+                            <span class="gender">男性</span>
+                          </label>
+                          <label for="woman">
+                            <input class="checkbox__style" type="radio" id="woman" name="sex" value="woman">
+                            <span class="gender">女性</span>
+                          </label>
                         </div>
                       </li>
                       <li class="clearfix">
@@ -146,13 +150,13 @@
                         </div>
                       </li>
                       <li class="clearfix">
-                        <div class="check__age">
-                          <input id="age" class="checkbox__style" type="checkbox" name="age">
-                          <label for="age">20歳以上です</label>
+                        <div class="check__age right__box">
+                          <input id="age" type="checkbox" name="age">
+                          <label for="age" class="check__box">20歳以上です</label>
                         </div>
                       </li>
-                      <li class="clearfix">
-                        <div class="check__age">
+                      <li class="clearfix"></li>
+                        <div class="right__box">
                           <input class="sub__btm" type="submit" value="送信">
                         </div>
                       </li>
