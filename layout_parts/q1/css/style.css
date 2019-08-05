@@ -31,7 +31,7 @@
   border: solid #022336 10px;
 }
 
-.Q1 Q1__box:first-child {
+.Q1 .Q1__box:first-child {
   margin-left: 0;
 }
 /* 回答はここに書いてね */
