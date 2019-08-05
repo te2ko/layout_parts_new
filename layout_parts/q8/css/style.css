@@ -53,10 +53,30 @@
   cursor: pointer;
 }
 
+
+
+.name__text {
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #fff;
+  font-size: 12px;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  border: none;
+  cursor: pointer;
+}
+
 .name__text:focus {
   box-shadow: 0 0 7px #00BCD4;
 }
 
+.name__text__box {
+  width: 180px;
+  float: right;
+}
+
+/* ------------------ */
 
 .s__btm1 {
   background-color: #00bcd4;
@@ -180,18 +200,6 @@ li:first-child{
   color: #f00;
 }
 
-.name__text {
-  width: 100%;
-  padding: 5px;
-  border-radius: 5px;
-  background-color: #fff;
-  font-size: 12px;
-  box-sizing: border-box;
-  -webkit-appearance: none;
-  border: none;
-  cursor: pointer;
-}
-
 .text__logo {
   position: relative;
   vertical-align: middle;
@@ -302,11 +310,6 @@ input[type=checkbox]:checked + .check__box::before {
 .sub__btm:active {
   background-color: #fff;
   color: #00bcd4;
-}
-
-.name__text__box {
-  width: 180px;
-  float: right;
 }
 
 .textarea__box {
