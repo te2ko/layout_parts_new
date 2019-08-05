@@ -9,13 +9,13 @@
   margin: 0 auto;
 }
 
-.Q2__box img {
+.Q2__box {
   margin-right: 20px;
   margin-bottom: 10px;
   float: left;
 }
 
-.Q2__box2 img {
+.Q2__box2 {
   float: right;
   margin-left: 20px;
   margin-bottom: 10px;
@@ -24,5 +24,6 @@
 .Q2__text {
   font-size: 18px;
   line-height: 22px;
+  word-wrap: normal;
 }
 /* 回答はここに書いてね */

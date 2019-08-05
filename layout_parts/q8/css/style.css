@@ -2,106 +2,96 @@
 
 /* 回答はここに書いてね */
 
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
 
-.s__btm1 {
+.s__btm:first-child {
+  margin-left: 0;
+}
+.m__btm:first-child {
+  margin-left: 0;
+}
+
+.l__btm:first-child {
+  margin-left: 0;
+}
+
+.s__btm {
   display: inline-block;
   font-size: 16px;
   color: #fff;
   padding: 0 15px;
+  margin-left: 10px;
   line-height: 26px;
-  background-color: #00bcd4;
   border-radius: 3px;
   text-align: center;
   cursor: pointer;
+}
+
+.m__btm {
+  display: inline-block;
+  padding: 0 20px;
+  margin-left: 10px;
+  line-height: 32px;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.l__btm {
+  display: inline-block;
+  padding: 0 25px;
+  margin-left: 10px;
+  line-height: 38px;
+  color: #fff;
+  border-radius: 7px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.name__text:focus {
+  box-shadow: 0 0 7px #00BCD4;
+}
+
+
+.s__btm1 {
+  background-color: #00bcd4;
 }
 
 .s__btm2 {
-  display: inline-block;
-  font-size: 16px;
-  color: #fff;
-  padding: 0 15px;
-  margin-left: 10px;
-  line-height: 26px;
   background-color: #ff4081;
-  border-radius: 3px;
-  text-align: center;
-  cursor: pointer;
 }
 
 .s__btm3 {
-  display: inline-block;
-  font-size: 16px;
-  color: #fff;
-  padding: 0 15px;
-  margin-left: 15px;
-  line-height: 26px;
   background-color: #e5e5e5;
-  border-radius: 3px;
-  text-align: center;
-  cursor: pointer;
 }
 
-.s__btm4 {
-  display: inline-block;
-  font-size: 16px;
-  padding: 0 15px;
-  margin-left: 10px;
-  line-height: 26px;
-  border-radius: 3px;
-  text-align: center;
-  box-shadow: 0 1px 6px rgba(0.0.0..12),0 1px 4px rgba(0.0.0..12);
-  cursor: pointer;
+.btm4 {
+  color: initial;
   box-shadow: 0 1px 6px rgba(0,0,0,.12),
   0 1px 4px rgba(0,0,0,.12);
 }
 
-
 .m__btm1 {
-  display: inline-block;
-  padding: 0 20px;
-  margin-left: 10px;
-  line-height: 32px;
   background-color: #00bcd4;
-  color: #fff;
-  border-radius: 5px;
-  font-size: 20px;
-  cursor: pointer;
 }
 
 .m__btm2 {
-  display: inline-block;
-  padding: 0 20px;
-  margin-left: 10px;
-  line-height: 32px;
   background-color: #ff4081;
-  color: #fff;
-  border-radius: 5px;
-  font-size: 20px;
-  cursor: pointer;
 }
 
 .m__btm3 {
-  display: inline-block;
-  padding: 0 20px;
-  margin-left: 10px;
-  line-height: 32px;
   background-color: #e5e5e5;
-  color: #fff;
-  border-radius: 5px;
-  font-size: 20px;
-  cursor: pointer;
 }
 
 .m__btm4 {
-  display: inline-block;
-  padding: 0 20px;
-  margin-left: 10px;
-  line-height: 32px;
-  border-radius: 5px;
-  font-size: 20px;
-  cursor: pointer;
+  color: initial;
   box-shadow: 0 1px 6px rgba(0,0,0,.12),
-  0 1px 4px rgba(0,0,0,.12);
+              0 1px 4px rgba(0,0,0,.12);
 }
 
 
@@ -118,41 +108,20 @@
 }
 
 .l__btm2 {
-  display: inline-block;
-  padding: 0 25px;
-  margin-left: 10px;
-  line-height: 38px;
   background-color: #ff4081;
-  color: #fff;
-  border-radius: 7px;
-  font-size: 24px;
-  cursor: pointer;
 }
 
 .l__btm3 {
-  display: inline-block;
-  padding: 0 25px;
-  margin-left: 10px;
-  line-height: 38px;
   background-color: #e5e5e5;
-  color: #fff;
-  border-radius: 7px;
-  font-size: 24px;
-  cursor: pointer;
 }
 
 .l__btm4 {
-  display: inline-block;
-  padding: 0 25px;
-  margin-left: 10px;
-  line-height: 38px;
-  border-radius: 7px;
-  font-size: 24px;
-  cursor: pointer;
+  color: initial;
   box-shadow: 0 1px 6px rgba(0,0,0,.12),
               0 1px 4px rgba(0,0,0,.12);
 }
 
+/* ここからfrom */
 
 .form__box {
   padding: 20px;
@@ -197,11 +166,6 @@ li {
 li:first-child{
   margin-top: 0;
 }
-.clearfix::after {
-  content: "";
-  display: block;
-  clear: both;
-}
 
 .item__name {
   float: left;
@@ -225,6 +189,25 @@ li:first-child{
   box-sizing: border-box;
   -webkit-appearance: none;
   border: none;
+  cursor: pointer;
+}
+
+.text__logo {
+  position: relative;
+  vertical-align: middle;
+}
+
+.text__logo:after {
+  content: "";
+  position: absolute;
+  top: 7px;
+  right: 10px;
+  width: 8px;
+  height: 8px;
+  border-right: solid 2px #e5e5e5;
+  border-bottom: solid 2px #e5e5e5;
+  transform: rotate(45deg);
+  pointer-events: none;
 }
 
 .right__box {
@@ -305,8 +288,6 @@ input[type=checkbox]:checked + .check__box::before {
   opacity: 1;
 }
 
-
-
 .sub__btm {
   padding: 0 10px;
   border-radius: 5px;
@@ -316,6 +297,11 @@ input[type=checkbox]:checked + .check__box::before {
   font-size: 16px;
   line-height: 26px;
   border: none;
+}
+
+.sub__btm:active {
+  background-color: #fff;
+  color: #00bcd4;
 }
 
 .name__text__box {
@@ -337,6 +323,10 @@ input[type=checkbox]:checked + .check__box::before {
   box-sizing: border-box;
   border: none;
   resize: none;
+}
+
+.text__area:focus {
+  box-shadow: 0 0 7px #00BCD4;
 }
 
 

@@ -82,6 +82,16 @@
   background-color: #de70cf;
 }
 
+.box8:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 20px;
+  height: 20px;
+  background-color: #ffefd3;
+}
+
 .box9 {
   position: fixed;
   top: 10px;
