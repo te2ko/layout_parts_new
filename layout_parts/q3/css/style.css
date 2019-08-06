@@ -35,7 +35,7 @@ vertical-align: middle;
   background-color: #ecf1f2;
 }
 
-.q3__table tr:last-child {
+.q3__table tbody tr:last-child {
   border-top: dashed 2px #000;
 }
 

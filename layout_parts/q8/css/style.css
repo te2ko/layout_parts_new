@@ -154,9 +154,11 @@
 }
 
 .symbol {
-  margin: 0;
-  padding: 0;
   color: #f00;
+}
+
+.shadow__none:focus {
+  box-shadow: none;
 }
 
 .text__logo {
@@ -181,13 +183,13 @@
   float: right;
 }
 
-input[type=checkbox],input[type=radio] {
+.checkbox__style,.check__age__box {
   display: none;
 }
 
 .check__box,.gender {
   position: relative;
-  padding: 0 0 0 42px;
+  padding-left: 42px;
   cursor: pointer;
   vertical-align: middle;
 }
@@ -251,11 +253,12 @@ input[type=checkbox],input[type=radio] {
   opacity: 0;
 }
 
-.cheak__age__box:checked + .check__box::before {
+.check__age__box:checked + .check__box::before {
   opacity: 1;
 }
 
 .sub__btm {
+  margin-top: 20px;
   padding: 0 10px;
   border-radius: 5px;
   background-color: #00bcd4;
@@ -264,6 +267,7 @@ input[type=checkbox],input[type=radio] {
   font-size: 16px;
   line-height: 26px;
   border: none;
+  outline: none;
 }
 
 .sub__btm:active {
