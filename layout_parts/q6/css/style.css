@@ -5,14 +5,14 @@
   text-align: center;
 }
 
-.text1 {
+.text__align {
   width: 90px;
   padding: 10px;
   background-color: #e6f2ff;
   display: inline-block;
 }
 
-.text2 {
+.text__margin {
   width: 90px;
   padding: 10px;
   background-color: #e6f2ff;
@@ -20,11 +20,11 @@
   text-align: center;
 }
 
-._table {
+.table__box {
   display: table;
 }
 
-.table__box {
+.table__box__inner {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
@@ -35,22 +35,22 @@
   display: inline-block;
 }
 
-.flex1 {
+.flex {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.flex1__text {
+.flex__text {
   padding: 10px;
   background-color: #fff;
 }
 
-.position__box {
+.position__fixed {
   position: relative;
 }
 
-.position__text {
+.position__fixed__text {
   position: absolute;
   top: 0;
   left: 0;
@@ -59,11 +59,11 @@
   margin: auto;
 }
 
-.position2__box {
+.position__variable__box {
   position: relative;
 }
 
-.position2__text {
+.position__variable__text {
   position: absolute;
   top: 50%;
   left: 50%;

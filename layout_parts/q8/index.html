@@ -32,26 +32,26 @@
           <!-- 新たにタグは追加しなくてもできます。 -->
           <div class="q8 q8--btn">
             <p class="q8__title">ー small ー</p>
-            <div class="s__btm s__btm1">common</div>
-            <div class="s__btm s__btm2">error</div>
-            <div class="s__btm s__btm3">disabled</div>
-            <div class="s__btm btm4">shadow</div>
+            <div class="blue__btn small__btn">common</div>
+            <div class="pink__btn small__btn">error</div>
+            <div class="gray__btn small__btn">disabled</div>
+            <div class="white__btn small__btn">shadow</div>
           </div>
 
           <div class="q8 q8--btn">
             <p class="q8__title">ー middle ー</p>
-            <div class="m__btm m__btm1">common</div>
-            <div class="m__btm m__btm2">error</div>
-            <div class="m__btm m__btm3">disabled</div>
-            <div class="m__btm m__btm4">shadow</div>
+            <div class="blue__btn middle__btn">common</div>
+            <div class="pink__btn middle__btn">error</div>
+            <div class="gray__btn middle__btn">disabled</div>
+            <div class="white__btn middle__btn">shadow</div>
           </div>
 
           <div class="q8 q8--btn">
             <p class="q8__title">ー large ー</p>
-            <div class="l__btm l__btm1">common</div>
-            <div class="l__btm l__btm2">error</div>
-            <div class="l__btm l__btm3">disabled</div>
-            <div class="l__btm l__btm4">shadow</div>
+            <div class="blue__btn large__btn">common</div>
+            <div class="pink__btn large__btn">error</div>
+            <div class="gray__btn large__btn">disabled</div>
+            <div class="white__btn large__btn">shadow</div>
           </div>
           <!-- 回答はここに書いてね -->
         </div>
@@ -99,7 +99,6 @@
           <!-- 回答はここに書いてね -->
           <!-- すでについてるクラスにはstyleを指定しない。styleを付ける場合は自分で新たにクラスをつけること -->
           <div class="q8">
-           <div class="">
              <form action="" method="GET" class="form__box">
                <div class="form__title">
                  <p class="title__text">From Exercise</p>
@@ -110,7 +109,7 @@
                      <li class="clearfix">
                        <p class="item__name">名前<span class="symbol">*</span></p>
                        <div class="name__text__box">
-                         <input class="name__text" type="text" name="name">
+                         <input class="name__text" type="text" name="name" required>
                        </div>
                      </li>
                      <li class="clearfix">
@@ -140,7 +139,7 @@
                       <li class="clearfix">
                         <p class="item__name">Eメール<span class="symbol">*</span></p>
                         <div class="name__text__box">
-                          <input class="name__text" type="text" name="mail" placeholder="ex)hoge@gmail.com"> 
+                          <input class="name__text" type="text" name="mail" placeholder="ex)hoge@gmail.com" required> 
                         </div>
                       </li>
                       <li class="clearfix">
@@ -151,7 +150,7 @@
                       </li>
                       <li class="clearfix">
                         <div class="check__age right__box">
-                          <input id="age" type="checkbox" name="age">
+                          <input id="age" type="checkbox" name="age" class="cheak__age__box">
                           <label for="age" class="check__box">20歳以上です</label>
                         </div>
                       </li>
@@ -166,7 +165,6 @@
                    <textarea class="text__area" placeholder="何かあれば入力してください"></textarea>
                  </div>
                  </div>
-               </div>
              </form>
            </div>
           </div>

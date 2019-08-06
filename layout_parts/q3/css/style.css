@@ -12,10 +12,12 @@
   table-layout: fixed;
   text-align: center;
 }
-.q3__table table, .q3__table td, .q3__table th {
+.q3__table td, .q3__table th {
 border-collapse: collapse;
 border: 1px solid #dedede;
+vertical-align: middle;
 }
+
 .q3__table th {
   background-color:#24a;
   color: #fff;
@@ -26,9 +28,7 @@ border: 1px solid #dedede;
 
 .q3__table td {
   padding: 10px;
-  font-size: 16px;
-  line-height: 22px;
-
+  text-align: center;
 }
 
 .q3__table tr:nth-child(odd) {
@@ -39,10 +39,4 @@ border: 1px solid #dedede;
   border-top: dashed 2px #000;
 }
 
-.q3__table td:first-child {
-  background-color:#24a;
-  color: #fff;
-  font-size: 18px;
-  line-height: 26px;
-}
 /* 回答はここに書いてね */

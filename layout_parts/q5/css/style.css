@@ -9,17 +9,17 @@
   margin: 0 auto;
 }
 
-._box {
+.box__common {
   width: 100px;
   height: 100px;
   text-align: center;
   font-weight: bold;
   line-height: 100px;
   font-size: 30px;
+  position: absolute;
 }
 
 .box1 {
-  position: absolute;
   top: 40px;
   left: 200px;
   z-index: 1;
@@ -27,7 +27,6 @@
 }
 
 .box2 {
-  position: absolute;
   top: 120px;
   left: 280px;
   z-index: 2;
@@ -35,7 +34,6 @@
 }
 
 .box3 {
-  position: absolute;
   top: 200px;
   left: 360px;
   z-index: 3;
@@ -43,7 +41,6 @@
 }
 
 .box4 {
-  position: absolute;
   top: 280px;
   left: 280px;
   z-index: 4;
@@ -51,7 +48,6 @@
 }
 
 .box5 {
-  position: absolute;
   bottom: 40px;
   left: 200px;
   z-index: 5;
@@ -59,7 +55,6 @@
 }
 
 .box6 {
-  position: absolute;
   top: 280px;
   left: 120px;
   z-index: 6;
@@ -67,7 +62,6 @@
 }
 
 .box7 {
-  position: absolute;
   top:200px;
   left: 40px;
   z-index: 7;
@@ -75,7 +69,6 @@
 }
 
 .box8 {
-  position: absolute;
   top: 120px;
   left: 120px;
   z-index: 8;
@@ -83,8 +76,8 @@
 }
 
 .box8:after {
-  content: "";
   position: absolute;
+  content: "";
   top: 0;
   right: 0;
   width: 20px;

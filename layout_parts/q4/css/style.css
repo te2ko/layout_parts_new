@@ -1,48 +1,52 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.container {
-  display:table;
-  width: 100%;
+
+.contents {
   padding: 20px;
-  box-sizing: border-box
 }
 
-.container div {
+.contents__inner {
+  display:table;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.contents__inner .box {
   display: table-cell;
   padding: 20px;
   text-align: center;
 }
 
-.box1:first-child {
+.box1 {
   background-color: #fdc8b8;
   width: 100px;
 }
 
-.box1 {
+.box2 {
   background-color: #e0abd9;
 }
 
-.box1:last-child {
+.box3{
   background-color: #b6d8ed;
   width: 100px;
 }
 
-.box2:first-child {
+.box4 {
   background-color: #e5d32e;
 }
 
-.box2 {
+.box5 {
   background-color: #ec8f9a;
 }
 
-.box2:last-child {
+.box6 {
   background-color: #8fdcad;
   width: 500px;
 }
 
-.container:first-child {
-  padding-bottom: 0;
+.contents__inner:first-child {
+  margin-bottom: 30px;
 }
 
 /* 回答はここに書いてね */
